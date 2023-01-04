@@ -37,11 +37,11 @@ jar {
     }
 }
 
-publishing {
-    publications {
-        fabric(MavenPublication) {
-            from components.java
-            artifactId = project.name
-        }
-    }
-}
+//publishing {
+//    publications {
+//        fabric(MavenPublication) {
+//            from components.java
+//            artifactId = project.name
+//        }
+//    }
+//}
